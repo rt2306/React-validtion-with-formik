@@ -1,0 +1,36 @@
+
+
+.component-container {
+    /* Adjust the component container styles as needed */
+  }
+  .texts{
+ 
+    z-index: 1000;
+    position: content;
+    top: 20%;
+    color: white;
+  }
+
+  .form{
+    padding: 10% 10%; 
+    font-size: 30px;
+  } 
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* z-index: 900; */
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* z-index: 900; */
+  }
